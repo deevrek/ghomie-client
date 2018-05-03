@@ -77,7 +77,7 @@ def main():
     interrupted=False
     listening=False
 
-    model = "resources/alexa.umdl"
+    model = "resources/alexa/alexa_02092017.umdl"
     
     ws = WebsocketClient('ws://localhost:8181/core')
     ws.on('open', handle_open)
